@@ -9,7 +9,7 @@
             <form action="/register" method="post">
                 @csrf
               <div class="form-floating">
-                <input type="name" class="form-control @error('name') is-invalid @enderror" id="floatingInput" placeholder="isi nama anda" name="name">
+                <input type="name" class="form-control @error('name') is-invalid @enderror" id="floatingInput" placeholder="isi nama anda" name="name" required value="{{ old('name') }}">
                 <label for="floatingInput">Nama</label>
                 
                     @error('name')
@@ -20,7 +20,7 @@
                 
               </div>
               <div class="form-floating">
-                <input type="username" class="form-control @error('username') is-invalid @enderror" id="floatingInput" placeholder="isi username anda" name="username">
+                <input type="username" class="form-control @error('username') is-invalid @enderror" id="floatingInput" placeholder="isi username anda" name="username" required value="{{ old('username') }}">
                 <label for="floatingInput">Username</label>
                 
                     @error('username')
@@ -30,7 +30,7 @@
                     @enderror</label>
               </div>
               <div class="form-floating">
-                <input type="email" class="form-control @error('email') is-invalid @enderror" id="floatingInput" placeholder="isi email anda" name="email">
+                <input type="email" class="form-control @error('email') is-invalid @enderror" id="floatingInput" placeholder="isi email anda" name="email" required value="{{ old('email') }}">
                 <label for="floatingInput">Email</label>
                 
                     @error('email')
@@ -40,8 +40,8 @@
                     @enderror
               </div>
               <div class="form-floating">
-                <input type="password" class="form-control @error('password') is-invalid @enderror" id="floatingInput" placeholder="isi password anda" name="password">
-                <label for="floatingInput">password</label>
+                <input type="password" class="form-control @error('password') is-invalid @enderror" id="floatingInput" placeholder="isi password anda" name="password" required>
+                <label for="floatingInput">Password</label>
                 
                     @error('password')
                     <div class="invalid-feedback">
