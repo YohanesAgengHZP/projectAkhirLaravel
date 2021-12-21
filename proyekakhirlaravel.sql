@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 11, 2021 at 01:57 PM
+-- Generation Time: Dec 21, 2021 at 08:58 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.13
 
@@ -173,12 +173,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `username`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Dacin Natsir', 'usimbolon@example.com', 'hasta.nurdiyanti', '2021-12-08 12:06:17', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'qL3UKlH2BL', '2021-12-08 12:06:17', '2021-12-08 12:06:17'),
-(2, 'Mariadi Waluyo S.T.', 'isuartini@example.net', 'tania.pudjiastuti', '2021-12-08 12:06:17', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'mS3pu8a6ta', '2021-12-08 12:06:17', '2021-12-08 12:06:17'),
+(1, 'Dacin Natsir', 'usimbolon@google.com', 'hasta.nurdiyanti', '2021-12-08 12:06:17', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'fuOpMG3SSPwE6YjwZVCnKA9pNLJqmfuepzhroVeKnuH3iZtqpVggTOoINpXo', '2021-12-08 12:06:17', '2021-12-08 12:06:17'),
+(2, 'Mariadi Waluyo S.T.', 'isuartini@google.com', 'tania.pudjiastuti', '2021-12-08 12:06:17', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'mS3pu8a6ta', '2021-12-08 12:06:17', '2021-12-08 12:06:17'),
 (3, 'Bambang Pranowo', 'nainggolan.gading@example.com', 'pangestu.mutia', '2021-12-08 12:06:17', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Re2hrtMxZL', '2021-12-08 12:06:17', '2021-12-08 12:06:17'),
 (4, 'Lala Aryani M.Pd', 'daliman.marpaung@example.org', 'widodo.vanya', '2021-12-08 12:06:17', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'vptnSNV7cu', '2021-12-08 12:06:17', '2021-12-08 12:06:17'),
 (5, 'Parman Nainggolan', 'heryanto51@example.net', 'hutagalung.raden', '2021-12-08 12:06:17', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'WsnhVUSXim', '2021-12-08 12:06:17', '2021-12-08 12:06:17'),
-(17, 'aafafaf', 'ageng3000@gmail.com', 'afafafaf', NULL, '$2y$10$EHKMiAUGj9BJN2PZS8I2yuN4vf0vMiYiAyKKy4J6bEBtMPY/lHnq2', NULL, '2021-12-10 22:36:48', '2021-12-10 22:36:48');
+(17, 'aafafaf', 'ageng3000@gmail.com', 'afafafaf', NULL, '$2y$10$EHKMiAUGj9BJN2PZS8I2yuN4vf0vMiYiAyKKy4J6bEBtMPY/lHnq2', NULL, '2021-12-10 22:36:48', '2021-12-10 22:36:48'),
+(18, 'Jojo', 'durothan3000@gmail.com', 'Jojo3000', NULL, '$2y$10$qKBhlp4q8bI4lZwSUBJyi.cgRrN5umAVt.8wqR4a6wM/nW2y1QS/u', NULL, '2021-12-11 06:09:31', '2021-12-11 06:09:31');
 
 --
 -- Indexes for dumped tables
@@ -272,7 +273,7 @@ ALTER TABLE `posts`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
